@@ -22,6 +22,7 @@
  /tmp/LatLng　緯度、経度<BR>
  /tmp/date    YYYY/MM/DD HH:mm:SS<BR>
  
-## 日時の設定例 ( dateコマンド)
+## 日時の設定例 ( dateコマンド)　
+ サーバ側がインターネットをアクセスできればntpコマンドの利用がお手軽ですが、info.phpの情報から日時の設定も可能<br>
  $ sudo date -s "\`cat /tmp/date\`"<BR>
  
