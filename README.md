@@ -4,6 +4,7 @@
 
 # 準備 
 ## apache2とphp5のインストール
+ $ sudo apt-get update<br>
  $ sudo apt-get install apache2 php5<BR>
  次にApacheのSSLモジュールと，デフォルトのSSLのサイトを有効化し，Apacheを再起動します。<BR>
 
